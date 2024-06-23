@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinity Storage</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">IS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reserve</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Infinity Storage</h1>
+          <p class="text-center">"One giant step above mini storage!"</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <form class="row g-3">
+        <div class="col-md-12">
+          <label for="inputchoice" class="form-label"
+            >Reservation location</label
+          >
+          <select id="inputchoice" class="form-select">
+            <option selected>Choose...</option>
+            <option>Local Charity</option>
+            <option>Local Dump</option>
+            <option>Local Star</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">First name</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="First name"
+            aria-label="First name"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Last name</label>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Last name"
+            aria-label="Last name"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Pick-up Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label"
+            >Pick-up Address 2</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Minnesota</option>
+            <option>Oregon</option>
+            <option>Louisiana</option>
+            <option>Texas</option>
+            <option>South Dakota</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck"> Send it! </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Reserve Now!</button>
+        </div>
+      </form>
+    </div>
+    <footer class="my-3">
+      <div class="col">
+        <div class="row">
+          <div class="bg-primary text-white text-center pt-3">
+            <p>888 86 Street|Earth,Sol|31431</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

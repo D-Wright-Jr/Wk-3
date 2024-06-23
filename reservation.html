@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinity Storage</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">IS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reserve</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Infinity Storage</h1>
+          <p class="text-center">
+            "3 very accomodating storage spaces to choose from!"
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--I used table from bootstrap. Easy to use. I added a hover and color-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table class="table table-hover table-primary">
+            <thead>
+              <tr>
+                <th scope="col">Location</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Reserve</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Local charity, church or thrift store</th>
+                <td>No cost to you!</td>
+                <td>
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="nav-link"
+                    href="form.html"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Reserve Now!!!
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Local dump</th>
+                <td>See your local rubbish removal fees</td>
+                <td>
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="nav-link"
+                    href="form.html"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Reserve Now!!!
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <th scope="row">Local star</th>
+                <td>You shouldn't have to ask</td>
+                <td>
+                  <a
+                    class="btn btn-primary"
+                    data-bs-toggle="nav-link"
+                    href="form.html"
+                    role="button"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Reserve Now!!!
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--I again used the same resizing techniques but I wanted a dark boarder and white text.-->
+    <div class="container bg-black text-white">
+      <div class="row">
+        <div class="col-6">
+          <h3>Permanent storage tips</h3>
+          <ul>
+            <p>Letting go can be difficult so here are some tips:</p>
+            <li>
+              Pretend like everything is exactly where you left it (it is not
+              like you were needing it anyhow)
+            </li>
+            <li>Forget about it</li>
+            <li>You were never going to find that item anyhow</li>
+            <li>Buy new!</li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h3>Amenities</h3>
+          <p>Every Infinity Storage solution is permanent and comes with:</p>
+          <ul>
+            <li>55 gallon black trash bags</li>
+            <li>2 guys to haul</li>
+            <li>hauling implements</li>
+            <li>One less thing on your "HoneyDo List"</li>
+            <li>Sudden liberation and zen-like feelings!</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="py-3">
+      <div class="col">
+        <div class="row">
+          <div class="bg-primary text-white text-center pt-3">
+            <p>888 86 Street|Earth,Sol|31431</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

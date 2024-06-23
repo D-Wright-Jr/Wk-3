@@ -1,0 +1,191 @@
+<!--Boilerplate -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Infinity Storage</title>
+    <!--Linked bootstrap stylsheet to my app-->
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <!--Used a navbar code for my webpage. I edited the nav-items and gave them names that corralated with my webpage-->
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">IS</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reservation.html">Reserve</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="form.html">Form</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Bootstrap grid is amazing. It helps makes placement and sizing for different screens so easy.-->
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center">Infinity Storage</h1>
+          <p class="text-center">"Your one-size-fits-all storage solution!"</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>The permanent solution to your storage problems!</h4>
+          <p>
+            Ever wonder how you ended up with so much stuff? Are you paying for
+            multiple storage spaces? Are you a DL hoarder? Do you have a
+            location for your stuff but haven't touched it in decades? Infinity
+            Storage is the right option for you!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <h3>Why Infinity Storage?</h3>
+          <ul>
+            <li>No more monthly storage fees</li>
+            <li>
+              No more untidy and cluttered garages, basements, attics or unused
+              living spaces
+            </li>
+            <li>We pick it up and you will re-forget you ever had it</li>
+            <li>We can accomodate most, if not all, storage needs</li>
+            <li>Infinity Storage is FOREVER!</li>
+          </ul>
+        </div>
+        <!-- I made sure that collumns stacked as the screen got smaller and return to sharing the remaning row after returning to a md sized screen-->
+        <div class="col-sm-12 col-md-6">
+          <h3>Storage options</h3>
+          <ul>
+            <li>your local charity</li>
+            <li>your local church</li>
+            <li>your local thrift store</li>
+            <li>your local dump</li>
+            <li>your local star</li>
+            <li>Not taking up your space!</li>
+          </ul>
+        </div>
+      </div>
+      <!--Used card group to display my storage options. I added images and buttons with anchors. I also used changed the color.-->
+      <div class="card-group">
+        <div class="card">
+          <img
+            src="https://www.yardbarker.com/media/d/4/d47ce017310bf1dce17152cbcbe3b5f36fe03415/thumb_16x9/20-essential-dos-donts-secondhand-shopping.jpg?v=1"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Local charity, church or thrift store</h5>
+            <p class="card-text">Multiple locations near you.</p>
+          </div>
+          <div class="card-footer text-center">
+            <small class="text-center"
+              ><a
+                class="btn btn-secondary"
+                data-bs-toggle="nav-link"
+                href="reservation.html"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Space Available
+              </a></small
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn.ultiworld.com/wordpress/wp-content/uploads/2018/05/garbage-dump.jpg?x58670"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Local dump</h5>
+            <p class="card-text">A few locations near you.</p>
+          </div>
+          <div class="card-footer text-center">
+            <small class="text-center"
+              ><a
+                class="btn btn-secondary"
+                data-bs-toggle="nav-link"
+                href="reservation.html"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Space Available
+              </a></small
+            >
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://cdn.mos.cms.futurecdn.net/mzvdREkye2SgLCAqAme7fY-1200-80.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body text-center">
+            <h5 class="card-title">Local star</h5>
+            <p class="card-text">1 location near you.</p>
+          </div>
+          <div class="card-footer text-center">
+            <small class="text-center"
+              ><a
+                class="btn btn-secondary"
+                data-bs-toggle="nav-link"
+                href="reservation.html"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Space Available
+              </a></small
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Gave my footer some space with margin and had to do a little padding on top so the font wasn't sticking on top-->
+    <footer class="my-3">
+      <div class="col">
+        <div class="row">
+          <div class="bg-primary text-white text-center pt-3">
+            <p>888 86 Street|Earth,Sol|31431</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
